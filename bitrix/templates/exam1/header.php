@@ -4,7 +4,6 @@ IncludeTemplateLangFile(__FILE__);
 ?>
 
 <head>
-
     <title><?$APPLICATION->ShowTitle()?></title>
     <?$APPLICATION->ShowHead();?>
 
@@ -15,15 +14,16 @@ IncludeTemplateLangFile(__FILE__);
     <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.min.js"></script>
     <script src="<?=SITE_TEMPLATE_PATH?>/js/owl.carousel.min.js"></script>
     <script src="<?=SITE_TEMPLATE_PATH?>/js/scripts.js"></script>
-    <link rel="icon" type="<?=SITE_TEMPLATE_PATH?>/image/vnd.microsoft.icon" href="favicon.ico">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="<?=SITE_TEMPLATE_PATH?>image/vnd.microsoft.icon"  href="favicon.ico">
+    <link rel="shortcut icon" href="<?=SITE_TEMPLATE_PATH?>/img/favicon.ico">
 </head>
 
 <body>
 <!-- wrap -->
 <div class="wrap">
-    <?$APPLICATION->ShowPanel()?>
-    <header class="header">
+    <!-- header -->
+    <?$APPLICATION->ShowPanel();?></div>
+<header class="header">
         <div class="inner-wrap">
             <div class="logo-block"><a href="" class="logo">Мебельный магазин</a>
             </div>
