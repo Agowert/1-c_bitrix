@@ -11,4 +11,4 @@
 1. Скопируйте репозиторий:
 
    ```bash
-   git clone https://github.com/Agowert/bitrtrixex.git
+   git clone https://github.com/Agowert/1-c_bitrix
